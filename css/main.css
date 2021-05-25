@@ -7,17 +7,18 @@ header {
     display: inline-block;
     margin-left: calc(50% - 400px);
     width: 800px;
+    margin-top: 20px;
   }
 
   header > img {
     display: inline-block;
     float: left;
-    width: 100px;
+    height: 100px;
 
   }
 
   nav {
-
+    float: right;
 
   }
 
@@ -37,21 +38,32 @@ header {
     float: left;
     margin-left: 2.5%;
     margin-right: 2.5%;
+    margin-top: 70px;
+    color: #9d9d9d;
   }
 
   h1 {
-
+    display: block;
+    font-size: 100px;
+    line-height: 80%;
+    margin: 0;
+    
 
   }
 
   P {
+      display: block;
+      font-size: 28px;
+      margin: 0;
+      line-height: 1.24;
+      
 
 
   }
 
 main > img {
     width: 40%;
-    float: left;
+    float: right;
     margin-left: 2.5%;
     margin-right: 2.5%;
   }
